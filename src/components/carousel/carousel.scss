@@ -1,0 +1,157 @@
+@import "../../app.scss";
+.main {
+  height: 100vh;
+  background: linear-gradient(360deg, #0c0c1d, #111132);
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 40px;
+    align-self: center;
+    align-items: center;
+  }
+  h2 {
+    @include mobile {
+      display: none;
+    }
+    font-size: 20px;
+    align-self: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  span {
+    padding: 20px;
+  }
+  .works {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .arrow {
+      height: 50px;
+      position: absolute;
+      cursor: pointer;
+      @include mobile {
+        display: none;
+      }
+
+      &.left {
+        left: 100px;
+        transform: rotateY(180deg);
+      }
+
+      &.right {
+        right: 100px;
+      }
+    }
+
+    .slider {
+      height: 500px;
+      display: flex;
+      position: absolute;
+      left: 0;
+      transition: all 1s ease-out;
+
+      @include mobile {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .container {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .item {
+          width: 900px;
+          height: 100%;
+          background-color: white;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          @include mobile {
+            width: 80%;
+            height: 150px;
+            margin: 15px 0;
+          }
+
+          .left {
+            flex: 4;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .leftContainer {
+              width: 90%;
+              height: 70%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              .imgContainer {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: rgb(245, 179, 155);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @include mobile {
+                  width: 20px;
+                  height: 20px;
+                }
+
+                img {
+                  width: 25px;
+
+                  @include mobile {
+                    width: 15px;
+                  }
+                }
+              }
+              h1 {
+                font-size: 40px;
+                color: #282525;
+                padding: 20px;
+                @include mobile {
+                  display: none;
+                }
+              }
+              h2 {
+                font-size: 60px;
+                padding: 20px;
+                color: 151541;
+                margin-left: 20px;
+              }
+            }
+            @include mobile {
+              display: none;
+            }
+          }
+          b .right {
+            flex: 8;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+
+            img {
+              width: 400px;
+              @include mobile {
+                width: 130px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
