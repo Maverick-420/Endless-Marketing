@@ -9,7 +9,7 @@ const items = [
     img: "./seo.jpg",
     desc: "We aim to improve your website's visibility and ranking in search engine results pages (SERPs), primarily for Google.",
     but: "Learn More",
-    link: "https://www.youtube.com/watch?v=7WwtzsSHdpI",
+    link: "https://en.wikipedia.org/wiki/Search_engine_optimization",
   },
 
   {
@@ -18,7 +18,7 @@ const items = [
     img: "./socialmm.jpg",
     desc: "Increased brand awareness, improved brand image, boosted engagement, driving website traffic, and ultimately, sales conversions.",
     but: "Learn More",
-    link: "https://www.youtube.com/watch?v=7WwtzsSHdpI",
+    link: "https://en.wikipedia.org/wiki/Social_media_marketing",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const items = [
     img: "./orm.jpg",
     desc: "We help in monitoring and influencing how you're perceived online, aiming to cultivate a positive image and mitigate negative feedback",
     but: "Learn More",
-    link: "https://www.youtube.com/watch?v=7WwtzsSHdpI",
+    link: "https://en.wikipedia.org/wiki/Reputation_management",
   },
 
   {

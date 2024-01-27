@@ -26,16 +26,23 @@ const CarousalSlider = () => {
       img: "/lavie.jpg",
     },
     {
-      id: "3",
+      id: "4",
       icon: "./facebook.png",
       title: "Makeup and Skincare",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img: "/sugarpop.jpg",
     },
+    {
+      id: "5",
+      icon: "./physicswallah.jpeg",
+      title: "Education",
+      desc: "We helped them to gather countless Organic Reviews through Social media Marketing",
+      img: "/physicswallah.png",
+    },
   ];
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 4)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
 
