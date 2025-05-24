@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_phd7mzk",
-        "template_7ndjipe",
+        "service_vzmjmil",
+        "template_rv5hehd",
         formRef.current,
-        "Puu3218pnGYxyZlDH"
+        "cfZLlTrTHHV1cjAu9"
       )
       .then(
         (result) => {
@@ -58,19 +58,27 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let’s Work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>endlessmarketingin@gmail.com</span>
+          <span>info@endlessmarketing.in</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Branch Address</h2>
-          <span>45 B-Block Roopnagar Jammu and Kashmir,India</span>
+          <h2>Buisness Address 1</h2>
+          <span>45 B-Block Roopnagar J&K India</span>
+          <h2>Buisness Address 2</h2>
+          <span>
+            Building number 9, Saharsh Enclave, Mullur Main Road,
+            Sarjapur,Kodathi Gate Bengaluru, KARNATAKA 560035 India
+          </span>
         </motion.div>
+
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
           <span>
             +91 6006386839
             <br />
           </span>
-          <span>Alternate +91 9596730250</span>
+          <span>
+            Alternate1 +91 9596730250 <br />
+          </span>
         </motion.div>
       </motion.div>
       <div className="formContainer">

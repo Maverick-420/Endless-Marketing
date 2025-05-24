@@ -82,7 +82,7 @@ const Hero = () => {
         Product Marketing Agency
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/model3.png" alt="" />
       </div>
     </div>
   );

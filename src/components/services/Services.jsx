@@ -32,6 +32,7 @@ const Services = () => {
       ref={ref}
       animate={isInView && "animate"}
     >
+      {" "}
       <motion.div className="textContainer" variants={variants}>
         <p>
           We are Leading Online Reputation Management Service Provider in India.

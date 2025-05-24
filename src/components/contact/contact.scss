@@ -6,7 +6,7 @@
   margin: auto;
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
   padding: 20px;
 
   @include mobile {
@@ -22,18 +22,18 @@
     gap: 40px;
 
     @include mobile {
-      gap: 10px;
+      gap: 5px;
       text-align: center;
       align-items: center;
-      margin-top: 40px;
+      margin-top: 10px;
     }
 
     h1 {
-      font-size: 100px;
+      font-size: 80px;
       line-height: 88px;
 
       @include mobile {
-        font-size: 36px;
+        font-size: 25px;
       }
     }
 

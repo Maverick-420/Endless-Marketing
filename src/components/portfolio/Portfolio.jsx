@@ -35,7 +35,7 @@ const items = [
     img: "./website.jpg",
     desc: "We assist you in Crafting Stunning Websites That Launch Brands.We have highly skilled developers who  create Digital Masterpiece    .        Let's Build It",
     but: "Contact Agent",
-    link: "https://www.linkedin.com/in/aniketbhagat420",
+    link: "#Contact",
   },
 ];
 

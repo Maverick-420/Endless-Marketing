@@ -33,13 +33,22 @@ const Navbar = () => {
           initial="initial"
           animate="animate"
         >
-          <a href="https://www.linkedin.com/in/endless-marketing-24b71a286">
+          <motion.a
+            href="https://www.linkedin.com/company/endlessmarketing/"
+            target="_blank"
+          >
             <img src="/linkedin.png" alt="" />
-          </a>
-          <motion.a>
+          </motion.a>
+          <motion.a
+            href="https://www.instagram.com/endlessmarketingin"
+            target="_blank"
+          >
             <img src="/instagram.png" alt="" />
           </motion.a>
-          <motion.a href="https://api.whatsapp.com/send/?phone=8899451519&text&type=phone_number&app_absent=0">
+          <motion.a
+            href="https://api.whatsapp.com/send/?phone=%2B918899451519&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
             <img src="/whatsapp.png" alt="" />
           </motion.a>
         </motion.div>

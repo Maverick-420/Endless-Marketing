@@ -1,0 +1,29 @@
+@import "../../app.scss";
+
+.servicesformob {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.5;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 100;
+    }
+  }
+  .box {
+    flex: 0.4;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

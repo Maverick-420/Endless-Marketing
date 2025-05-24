@@ -41,8 +41,21 @@ a {
     @content;
   }
 }
+
 .services {
   @include mobile {
+    display: none;
+  }
+}
+
+@mixin onlymobile {
+  @media (min-width: 738px) {
+    @content;
+  }
+}
+
+.servicesmob {
+  @include onlymobile {
     display: none;
   }
 }
